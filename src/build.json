@@ -1,0 +1,11 @@
+{
+  "includes": [
+    "./assets/**",
+    "./packs/**",
+    "./languages/**",
+    "./baseBuilding/**",
+    "./styles/**",
+    "./module.json",
+    "./README.md"
+  ]
+}

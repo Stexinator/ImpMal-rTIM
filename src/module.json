@@ -1,0 +1,61 @@
+{
+    "id": "impmal-rtim",
+    "title": "ImpMal - rTIM",
+    "version": "0.0.1",
+    "manifest": "REPLACED BY BUILD",
+    "url": "REPLACED BY BUILD",
+    "download": "REPLACED BY BUILD",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "impmal",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
+    },
+    "esmodules": ["baseBuilding/baseBuilding.js"],
+    "styles": [],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json",
+            "flags": {}
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "rTIM",
+            "sorting": "m",
+            "packs": ["base-modules"]
+        }
+    ],
+    "packs": [
+        {
+            "name": "base-modules",
+            "label": "Base Modules",
+            "path": "packs/base-modules",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "impmal",
+            "flags": {}
+        }
+    ],
+    "documentTypes": {
+        "Actor": {
+            "baseBuilding": {}
+        },
+        "Item": {
+            "module": {}
+        }
+    }
+}
+

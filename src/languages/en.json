@@ -1,0 +1,33 @@
+{
+    "TYPES": {
+        "Actor": {
+            "impmal-rtim": {
+                "baseBuilding": "Base"
+            }
+        },
+        "Item": {
+            "impmal-rtim": {
+                "module": "Base Module"
+            }
+        }
+    },
+    "impmal-rtim-base-building": {
+        "base": {
+            "levelLimit": "Level Limit",
+            "totalLevels": "Total Levels",
+            "totalLevelsLimit": "Total Levels Limit",
+            "availableUpgradePoints": "Available Upgrade Points",
+            "spentUpgradePoints": "Spent Upgrade Points"
+        },
+        "module": {
+            "name": "Base Module",
+            "level": "Level",
+            "levelZeroEffect": "Level 0",
+            "levelOneEffect": "Level 1",
+            "levelTwoEffect": "Level 2",
+            "levelThreeEffect": "Level 3",
+            "levelFourEffect": "Level 4",
+            "levelFiveEffect": "Level 5"
+        }
+    }
+}
