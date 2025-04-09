@@ -57,6 +57,17 @@
         "ASSISTANT": "OWNER"
       },
       "system": "impmal"
+    },
+    {
+      "name": "rtim-cards",
+      "label": "rTIM-Cards",
+      "path": "packs/rtim-cards",
+      "type": "Cards",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "impmal"
     }
   ],
     "documentTypes": {
