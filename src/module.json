@@ -32,7 +32,7 @@
         {
             "name": "rTIM",
             "sorting": "m",
-            "packs": ["base-modules"]
+          "packs": [ "base-modules", "rtim-rolltables", "rtim-cards"]
         }
     ],
   "packs": [
