@@ -1,5 +1,8 @@
 # ImpMal-rTIM
 
+![All Downloads](https://img.shields.io/github/downloads/Havoclivekiller/ImpMal-rTIM/total?style=for-the-badge)
+![Latest Downloads](https://img.shields.io/github/downloads/Havoclivekiller/ImpMal-rTIM/latest/total?style=for-the-badge)
+
 ![Logo](/src/assets/rtim-logo.webp)
 
 Welcome to Roguish Tradering: Impeccable Moneymaking or rTIM (yes, I know you hate it), a homebrew collection of mine for Imperium Maledictum system. Also, some house rule(s) I rather liked.
