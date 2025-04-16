@@ -18,7 +18,7 @@
             }
         ]
     },
-    "esmodules": ["baseBuilding/baseBuilding.js"],
+  "esmodules": [ "baseBuilding/baseBuilding.js", "settings/settings.js" ],
     "styles": [],
     "languages": [
         {
@@ -32,23 +32,44 @@
         {
             "name": "rTIM",
             "sorting": "m",
-            "packs": ["base-modules"]
+          "packs": [ "base-modules", "rtim-rolltables", "rtim-cards"]
         }
     ],
-    "packs": [
-        {
-            "name": "base-modules",
-            "label": "Base Modules",
-            "path": "packs/base-modules",
-            "type": "Item",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "impmal",
-            "flags": {}
-        }
-    ],
+  "packs": [
+    {
+      "name": "base-modules",
+      "label": "rTIM-BaseModules",
+      "path": "packs/base-modules",
+      "type": "Item",
+      "system": "impmal",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rtim-rolltables",
+      "label": "rTIM-RollTables",
+      "path": "packs/rtim-rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "impmal"
+    },
+    {
+      "name": "rtim-cards",
+      "label": "rTIM-Cards",
+      "path": "packs/rtim-cards",
+      "type": "Cards",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "impmal"
+    }
+  ],
     "documentTypes": {
         "Actor": {
             "baseBuilding": {}

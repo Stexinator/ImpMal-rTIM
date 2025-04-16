@@ -4,6 +4,7 @@
     "./packs/**",
     "./languages/**",
     "./baseBuilding/**",
+    "./settings/**",
     "./styles/**",
     "./module.json",
     "./README.md"
