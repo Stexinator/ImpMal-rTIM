@@ -1,6 +1,6 @@
 # ImpMal-rTIM
 
-![Logo](/assets/src/rtim-logo.webp)
+![Logo](/src/assets/rtim-logo.webp)
 
 Welcome to Roguish Tradering: Impeccable Moneymaking or rTIM (yes, I know you hate it), a homebrew collection of mine for Imperium Maledictum system. Also, some house rule(s) I rather liked.
 For now, this module has:
