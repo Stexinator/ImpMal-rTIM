@@ -5,10 +5,11 @@
 Welcome to Roguish Tradering: Impeccable Moneymaking or rTIM (yes, I know you hate it), a homebrew collection of mine for Imperium Maledictum system. Also, some house rule(s) I rather liked.
 For now, this module has:
 
-## Homebrew
+## Homebrew (with Journal Entries)
 - rTIM: Base of Operations - Base building. Actor sheet and Item sheet (with compendium filled with the rooms/modules), no automation.
 - rTIM: Eventful Life - Expanded Events table. Rolltable ready to go!
-- rTIM: The Deck Stacked Against You - Emperor's Tarot to give out bonuses/penalties and generate ideas for Missions. Only the card deck.
+- rTIM: The Deck Stacked Against You - Emperor's Tarot to give out bonuses/penalties and generate ideas for Missions.
+- rTIM: Loot Gretchin - Loot tables. The items are based on ImpMal Core module, otherwise links will be broken.
 
 ## House Rules
 - Alternative Initiative - Custom field to specify a custom initiative. Default is adding d10 to the initiative to make it more random.
