@@ -1,7 +1,7 @@
 {
     "id": "impmal-rtim",
     "title": "ImpMal - rTIM",
-    "version": "0.7.0",
+    "version": "0.9.0",
     "manifest": "REPLACED BY BUILD",
     "url": "REPLACED BY BUILD",
     "download": "REPLACED BY BUILD",
@@ -32,13 +32,13 @@
         {
             "name": "rTIM",
             "sorting": "m",
-          "packs": [ "base-modules", "rtim-rolltables", "rtim-cards", "rtim-journalentries", "rtim-macros" ]
+          "packs": [ "base-modules", "rtim-rolltables", "rtim-cards", "rtim-journalentries", "rtim-macros", "rtim-actors" ]
         }
     ],
   "packs": [
     {
       "name": "base-modules",
-      "label": "rTIM-BaseModules",
+      "label": "rTIM-Items",
       "path": "packs/base-modules",
       "type": "Item",
       "system": "impmal",
@@ -85,6 +85,17 @@
       "label": "rTIM-Macros",
       "path": "packs/rtim-macros",
       "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "impmal"
+    },
+    {
+      "name": "rtim-actors",
+      "label": "rTIM-Actors",
+      "path": "packs/rtim-actors",
+      "type": "Actor",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
