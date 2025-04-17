@@ -1,5 +1,8 @@
-2025/04/16-17:51:35.169 6180 Delete type=3 #1
-2025/04/16-19:53:23.919 5c4c Level-0 table #5: started
-2025/04/16-19:53:23.927 5c4c Level-0 table #5: 666 bytes OK
-2025/04/16-19:53:23.929 5c4c Delete type=0 #3
-2025/04/16-19:53:23.939 5c4c Manual compaction at level-0 from '!macros!eNrnVWRvGatsb3lg' @ 72057594037927935 : 1 .. '!macros!eNrnVWRvGatsb3lg' @ 0 : 0; will stop at (end)
+2025/04/17-08:32:44.320 2df0 Recovering log #16
+2025/04/17-08:32:44.328 2df0 Delete type=0 #16
+2025/04/17-08:32:44.328 2df0 Delete type=3 #14
+2025/04/17-12:18:33.969 5f68 Level-0 table #21: started
+2025/04/17-12:18:33.969 5f68 Level-0 table #21: 0 bytes OK
+2025/04/17-12:18:33.972 5f68 Delete type=0 #19
+2025/04/17-12:18:33.986 5f68 Manual compaction at level-0 from '!macros!eNrnVWRvGatsb3lg' @ 72057594037927935 : 1 .. '!macros!eNrnVWRvGatsb3lg' @ 0 : 0; will stop at (end)
+2025/04/17-12:18:33.986 5f68 Manual compaction at level-1 from '!macros!eNrnVWRvGatsb3lg' @ 72057594037927935 : 1 .. '!macros!eNrnVWRvGatsb3lg' @ 0 : 0; will stop at (end)
