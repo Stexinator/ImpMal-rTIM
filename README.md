@@ -18,7 +18,13 @@ For now, this module has (no automation for Homebrew unless stated otherwise):
 - rTIM: Group Up! - Squads for low level enemies. Just the rules
 - rTIM: Machineguns Akimbo - Dual wield of two-handed weapons. Just the rules and the recoil gloves.
 - rTIM: Peers of the Imperium - Archetypes (for higher lvl of play, Basic only). Just the rules and talents.
-
+- rTIM: Patronite - Patrons with unique boons and liabilities. About 44 Boons and Liabilities to use. 
+- rTIM: Warp Charge Bleeding - Rules for Warp Charge to bleed into the surroundings (this was done before change to Warp Charge). Just the rules.
+- rTIM: Resilience & Fate - Rules for adding Resilience (from WFRP4e) to the game. Just the rules.
+- rTIM: Steve the Servo-Skull - Rules for Servo-Skulls (this was done before Familiar rules were introduced). Just the rules.
+- rTIM: The Commorragh Love Potion - Rules for Poisons/Drugs. Just the rules (this was never finished).
+- rTIM: Green iz da Best! - ORKS! ORKS! ORKS! Rules, items and rolltables.
+ 
 ## House Rules
 - Alternative Initiative - Custom field to specify a custom initiative. Default is adding d10 to the initiative to make it more random.
 
