@@ -27,6 +27,7 @@ For now, this module has (no automation for Homebrew unless stated otherwise):
  
 ## House Rules
 - Alternative Initiative - Custom field to specify a custom initiative. Default is adding d10 to the initiative to make it more random.
+- Critical/Fumble on All Tests - Not all tests in the system will have Critical/Fumble upon doubles, with this they will have it.
 
 
 # Homebrew links
