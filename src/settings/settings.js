@@ -1,6 +1,16 @@
 Hooks.on('init', () => {
     registerSettings();
 
+    foundry.utils.mergeObject(game.impmal.config.disciplines, {
+        waaagh: "WAAAGH!"
+    });
+
+    foundry.utils.mergeObject(game.impmal.config.corruptionType, {
+        exaltation: "Exaltation",
+        revelation: "Revelation",
+        cosmeticmutation: "Cosmetic Mutation"
+    });
+
     if (game.settings.get("impmal-rtim", "alternativeInitiative") === true) {
         CONFIG.Combat.initiative = {
             formula: game.settings.get("impmal-rtim", "alternativeInitiativeFormula"),
@@ -14,7 +24,7 @@ Hooks.on('renderChatMessage', (message, html, messageData) => {
             return true;
         }
         if ((message.rolls[0].total % 11 === 0) || message.rolls[0].total === 100) {
-            let toInsert = message.content.includes("Success") ? game.i18n.localize("IMPMAL.Critical") : game.i18n.localize("IMPMAL.Fumble");
+            let toInsert = html[0].querySelector('.sl').textContent.includes('+') ? game.i18n.localize("IMPMAL.Critical") : game.i18n.localize("IMPMAL.Fumble");
             html[0].querySelector('.tags').insertAdjacentHTML('beforeend', `<div>${toInsert}</div>`)
         }
     }
